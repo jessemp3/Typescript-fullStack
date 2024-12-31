@@ -2,13 +2,15 @@ import {peopleAccount} from "./class/PeopleAccount";
 import {companyAccount} from "./class/CompanyAccount";
 
 
-const people:peopleAccount = new peopleAccount(123456789, 'jesse', 123456);
+const people:peopleAccount = new peopleAccount(123456789,'jesse' , 123456);
+people.getBalance();
 people.deposit(100);
-// console.log(people);
-
+people.withdraw(50);
+people.getBalance();
 
 const company:companyAccount = new companyAccount('Dio', 123456);
-company.deposit()
+
+
 
 
 

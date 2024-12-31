@@ -9,8 +9,9 @@ export class companyAccount extends DioAccount {
     getLoan = ():void => {
         console.log('Emprestimo concedido');
     }
-    deposit = ():void => {
+    deposit = (value:number):void => {
         console.log('A empresa depositou');
+        this.balance += value;
     }
 
 }
