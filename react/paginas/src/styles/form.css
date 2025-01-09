@@ -1,0 +1,25 @@
+
+.container{
+    background: #646cff;
+    width: 60% !important;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+form{
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+button{
+    background: white !important;
+    color: #1a1a1a !important;
+}
